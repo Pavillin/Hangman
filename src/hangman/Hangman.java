@@ -20,9 +20,9 @@ public class Hangman
 		
 	int ran = 1 + rand.nextInt(10);//PICKS RANDOM NUMBER(WORD)
 	String guess; //GUESS(LETTERS)
-	int guessnum = 0; //GUESS(NUMBERS)
+	int guessNum = 0; //GUESS(NUMBERS)
 	String miss; //MISSES(LETTERS)
-	int missnum = 0; //MISSED(NUMBERS)
+	int missNum = 0; //MISSED(NUMBERS)
 		
 	if (ran==1)
 	{
@@ -38,16 +38,16 @@ public class Hangman
 		if (word.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                    guessnum++;
-			if (guessnum == 5)
+                    guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-                        if (missnum == 5)
+                        missNum++;
+                        if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -66,16 +66,16 @@ public class Hangman
 		if (java.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                    guessnum++;
-			if (guessnum == 5)
+                    guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-                        if (missnum == 5)
+                        missNum++;
+                        if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -94,16 +94,16 @@ public class Hangman
 		if (motorbike.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-			if (guessnum == 5)
+                        guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
 		System.out.println("Oops, that was not a correct letter, try again!");
-                    missnum++;
-                    if (missnum == 5)
+                    missNum++;
+                    if (missNum == 5)
                     {
                         System.out.println("Oh no! You ran out of lives! YOU LOSE!");
                     }
@@ -122,16 +122,16 @@ public class Hangman
 		if (magic.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                    guessnum++;
-			if (guessnum == 5)
+                    guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-			if (missnum == 5)
+                        missNum++;
+			if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -150,16 +150,16 @@ public class Hangman
 		if (pepperoni.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-                        if (guessnum == 5)
+                        guessNum++;
+                        if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
 		System.out.println("Oops, that was not a correct letter, try again!");
-                    missnum++;
-                    if (missnum == 5)
+                    missNum++;
+                    if (missNum == 5)
                     {
 			System.out.println("Oh no! You ran out of lives! YOU LOSE!");
                     }
@@ -178,19 +178,19 @@ public class Hangman
                 if (jukebox.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-			if (guessnum == 5)
+                        guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
                 }
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                    missnum++;
-                    if (missnum == 5)
-                    {
-			System.out.println("Oh no! You ran out of lives! YOU LOSE!");
-                    }
+                        missNum++;
+                        if (missNum == 5)
+                        {
+                            System.out.println("Oh no! You ran out of lives! YOU LOSE!");
+                        }
 	}
 	if (ran==7)
 	{
@@ -206,16 +206,16 @@ public class Hangman
 		if (cat.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-			if (guessnum == 5)
+                        guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-			if (missnum == 5)
+                        missNum++;
+			if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -234,16 +234,16 @@ public class Hangman
                 if (vehicle.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-			if (guessnum == 5)
+                        guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
                 else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-			if (missnum == 5)
+                        missNum++;
+			if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -262,16 +262,16 @@ public class Hangman
                 if (power.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-			guessnum++;
-			if (guessnum == 5)
+			guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-			if (missnum == 5)
+                        missNum++;
+			if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
@@ -290,16 +290,16 @@ public class Hangman
 		if (kite.contains(guess))
 		{
                     System.out.println ("You guessed a letter");
-                        guessnum++;
-			if (guessnum == 5)
+                        guessNum++;
+			if (guessNum == 5)
 			{
                             System.out.println("You guessed the word! YOU WIN!");
 			}
 		}
 		else
                     System.out.println("Oops, that was not a correct letter, try again!");
-                        missnum++;
-                        if (missnum == 5)
+                        missNum++;
+                        if (missNum == 5)
 			{
                             System.out.println("Oh no! You ran out of lives! YOU LOSE!");
 			}
